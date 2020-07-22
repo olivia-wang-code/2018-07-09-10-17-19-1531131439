@@ -23,7 +23,7 @@ public class Student {
         this.classNUmber=classNUmber;
     }
     public String introduce(){
-        return "My name is Tom. I am 21 years old.";
+        return "My name is Tom. I am "+this.age+" years old.";
     }
     
 }
