@@ -17,6 +17,6 @@ public class Teacher extends Person{
         if(klass==null){
             return super.introduce()+" I am a Teacher. I teacher No Class.";
         }
-        return super.introduce()+" I am a teacher. I teacher Class "+this.klass+".";
+        return super.introduce()+" I am a Teacher. I teacher Class "+this.klass+".";
     }
 }

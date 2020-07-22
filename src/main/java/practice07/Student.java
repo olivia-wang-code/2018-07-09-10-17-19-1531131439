@@ -13,6 +13,6 @@ public class Student extends Person {
         return klass;
     }
     public String introduce(){
-        return super.introduce()+" I am a Student. I am at Class "+this.getKlass().getNumber()+".";
+        return super.introduce()+" I am a Student. I am at Class "+this.getKlass().getNumber();
     }
 }
