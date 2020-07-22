@@ -23,7 +23,7 @@ public class Student {
         this.classNUmber=classNUmber;
     }
     public String introduce(){
-        return "I am a Student. I am at Class 2.";
+        return "I am a Student. I am at Class "+this.classNUmber+".";
     }
     
 }
